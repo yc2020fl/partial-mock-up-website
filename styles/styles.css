@@ -2,8 +2,18 @@
         box-sizing: border-box;
 }
 
+.hidden {
+  position: relative;
+  left: -100000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0px;
+}
+
 header {
-  background-color: rgb(48, 156, 185);
+  background-color: #23788B;
   color: white;
   padding: 2em;
   border: 2em transparent;
@@ -14,7 +24,7 @@ header h2 {
 }
 
 header .second-line {
-  background-color: rgb(48, 156, 185);
+  background-color: #23788B;
   font-size: 30px;
 }
 
@@ -24,6 +34,11 @@ nav{
     border-style: solid;
     border-color: rgb(235, 235, 235);
     border-width: 25px;
+}
+
+nav a {
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
 h3 {
@@ -37,12 +52,12 @@ p {
 
 
 .blue {
-  color: rgb(48, 156, 185);
+  color: #23788B;
 }
 
 
 section a {
-  color: rgb(48, 156, 185);
+  color: #23788B;
 }
 
 
